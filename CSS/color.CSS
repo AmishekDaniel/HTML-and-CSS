@@ -1,0 +1,35 @@
+body{
+    background-image:url("../image/new.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+#Top{
+    width:100%;
+	margin:0px auto;
+	height:270px;
+    color: aliceblue;
+    background-color:none;
+   
+}
+/* #Top ul{
+     float: right;
+    margin-top: 25px;
+
+} */
+/* #Top ul li{
+     
+	
+	
+	
+    
+	margin-right:15px;
+	
+	text-decoration:none;
+	
+
+} */
+p{
+    color: rgb(191, 204, 204);
+}

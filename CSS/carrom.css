@@ -1,0 +1,44 @@
+.carrom-frame{
+    border: 5px solid brown;
+    height: 500px;width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top:50%;left: 50%;
+    transform: translate(-50%,-50%);
+}
+.pockets{
+    height: 50px;
+    width: 50px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+
+}
+.p1{
+    top:0;
+    left:0;
+}
+.p2{
+    top:0;
+    right:0;
+}
+.p3{
+   bottom:0;
+    left:0;
+}
+.p4{
+   bottom:0;
+    right:0;
+}
+.base{
+    border: 3px solid black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.top-base{
+    height:6.5% ;
+    width: 75%;
+    top:14%;
+    left:0;
+}

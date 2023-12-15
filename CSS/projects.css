@@ -1,0 +1,40 @@
+body{
+    background-image: url("../image/new.jpg");
+   background-repeat:no-repeat ;
+   background-size: cover;
+   background-attachment: fixed;
+
+
+}
+#id{
+   
+
+
+
+}
+.header{
+    width:100%;
+	margin:0px auto;
+	height:270px;
+    color: aliceblue;
+    background-color:none;
+    text-align: center;
+   
+}
+
+.header ul {
+    
+    float: right;
+    margin-top: 25px;
+
+}
+.header ul li{
+     
+	
+	
+	display: inline;
+    
+	
+	
+
+}
