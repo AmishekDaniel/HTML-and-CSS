@@ -3,25 +3,130 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Cambria;
+    
 }
 
-.container{
-    background: #ffffff;
+/*---------------------------------------------header-section---------------------------------------------*/
+
+.header{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr ;
+    position: relative;
+    height: 200px;
+    
   
 }
 
-.navbar{
+/*---------------------------------------------header---------------------------------------------*/
+
+
+.head{
     width: 100%;
+    height: 50px;
     
-    padding: 20px;
-    background-color:gray ;
-    position: absolute;
-    top: 100px;
+    background-color:#00202B ;
     
-   
-  /*  border: 2px solid rgb(206,189,123) ;*/
+    display: flex;
     
 }
+
+
+
+
+.head .icon{
+    color:#808080 ;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 10px;
+} 
+
+.head .items{
+    color: #808080;
+    font-size: 16px;
+    padding: 3px;
+    margin-top: 12px;
+    margin-left: 1px;
+}
+
+.head .fa-phone{
+   
+    color: #808080;
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 200px;
+} 
+
+.head .fa-facebook{
+    margin-left: 545px;
+}
+
+.head .fa-twitter{
+    margin-left: 50px;
+}
+
+.head .fa-instagram{
+    margin-left: 50px;
+}
+
+.head .fa-linkedin{
+    margin-left: 50px;
+}
+
+.head .icon:hover{
+    color: #ffffff;
+    
+}
+
+/*---------------------------------------------navbar---------------------------------------------*/
+
+.navbar{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff ;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    height: 91px;
+    box-shadow: 0px 5px 8px rgba(0,0,0,.2);
+}
+
+.navbar h1{
+    font-size: 60px;
+    margin-left: 20px;
+    
+    position:absolute;
+    
+    bottom: 15.1px;
+    letter-spacing: 1px;
+    
+}
+.navbar h1:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #808080;
+}
+
+.navbar h1:nth-child(2){
+    color:#00202B ;
+    animation: animit 4s ease-in-out infinite;
+}
+
+@keyframes animit{
+     0%,100%{
+        clip-path: polygon(0 48%, 6% 55%, 15% 62%, 25% 65%, 35% 65%, 45% 61%, 54% 52%, 64% 47%, 74% 47%, 81% 47%, 93% 51%, 100% 58%, 99% 98%, 1% 99%);
+     }
+     50%{
+        clip-path: polygon(0 53%, 8% 46%, 19% 42%, 31% 43%, 41% 48%, 48% 54%, 56% 62%, 66% 66%, 76% 66%, 84% 62%, 93% 57%, 100% 50%, 100% 100%, 0 100%);
+     }
+
+
+}
+
+   /* border: 2px solid #00202B ;*/
+    
+
 
 /*--------------Desktop----------------------*/
 
@@ -33,20 +138,25 @@
     margin-left: 10px;
 
 }
+}
 
 .navbar-item{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 94px;
+    height: 80px;
+    border-radius: 10%;
+    background-color: #808080;
+    border: 2px solid #00202B
    /* border: 2px solid black;*/
    
    
     
-    
+ 
 }
 
 .navbar-item ul li{
@@ -60,13 +170,13 @@
 .navbar-item ul li a{
     text-decoration: none;
     font-size:24px;
-    color: rgb(206,189,123);
+    color: #00202B;
     transition: 0.1s;
 }
 
 .navbar-item ul li a:hover{
-    border-bottom:3px solid black;
-    color: black;
+    border-bottom:3px solid #ffffff;
+    color: #ffffff;
     transition:.1s;
 
 }
@@ -75,7 +185,7 @@
     display: none;
 }
 
-}
+
 
 /*----------------------------mobile view---------------------------------*/
 
@@ -116,13 +226,13 @@
 .navbar-item ul li a{
     text-decoration: none;
     font-size:21px;
-    color:rgb(206,189,123);
+    color:#808080;
     transition: 0.1s;
 }
 
 .navbar-item ul li a:hover{
-    border-bottom:3px solid black;
-    color:black;
+    border-bottom:3px solid #ffffff;
+    color:#ffffff;
     transition:.1s;
 
 }
@@ -141,7 +251,8 @@
 .navbar-btn span{
     display: block;
     width: 20px;
-    border-top: 1px solid white;
+    border-top: 1px solid #808080;
+    color: #808080;
 
 }
 
