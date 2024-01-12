@@ -77,12 +77,13 @@
 
 .navbar h1{
     font-size: 60px;
+    position: absolute;
     margin-left: 20px;
     letter-spacing: 1px;
     
     
 }
-/*.navbar h1:nth-child(1){
+.navbar h1:nth-child(1){
     color: transparent;
     -webkit-text-stroke: 2px #808080;
 }
@@ -101,7 +102,7 @@
      }
 
 
-}*/
+}
 
    /* border: 2px solid #00202B ;*/
     
@@ -173,8 +174,8 @@
 
 section{
   width: 100%;
-  height: 100vh;
-  
+  height:591px;
+ 
 
 }
 
@@ -183,7 +184,8 @@ section{
     margin-left: 0.5%;
     height: 580px;
     margin-top: 10px;
-    box-shadow: 5px 5px 8px rgba(0,0,0,.2), -2px -5px 5px rgba(0,0,0,.2);
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,.2), -8px -2px 5px rgba(0,0,0,.2);
     display: grid;
     grid-template-columns: 790px 1fr;
     column-gap: 2px;
@@ -216,3 +218,30 @@ section{
     margin-bottom: 25px;
 }
 
+/*---------------------------------------------About-section---------------------------------------------*/
+
+.about{
+    width: 100%;
+    height: 100vh;
+    
+  
+  }
+
+  .about-item{
+    width: 99%;
+    height: 90vh;
+    margin-left: 0.5%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,.2), -8px -2px 5px rgba(0,0,0,.2);
+  }
+
+.display-1{
+    position: relative;
+    top: 40px;
+    left: 57px;
+    color: #808080;
+    text-shadow:12px 12px 10px rgba(0,0,0,.2), 0px 0px 5px rgba(0,0,0,.2) ;
+    
+
+  }
