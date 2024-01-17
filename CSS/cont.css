@@ -1,0 +1,65 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+}
+
+
+/*----------------------------------------------------------header-----------------------------------------------------------------*/
+
+.fluid{
+    height: 50px;
+    background-color: #00202B ;
+    display: flex;
+    align-items: center;
+    
+}
+
+.fluid .icon{
+    color: #808080;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.6s;
+} 
+
+.fluid .items{
+    color:#808080 ;
+    font-size: 16px;
+    margin-left: 1px;
+    margin-top: 14px;
+    transition: 0.6s;
+}
+
+.fluid .fa-phone{
+   
+    color: #808080;
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 3.5px;
+    margin-left: 200px;
+} 
+
+.fluid .fa-facebook{
+    margin-left: 545px;
+}
+.fluid .fa-twitter{
+    margin-left: 50px;
+}
+
+.fluid .fa-instagram{
+    margin-left: 50px;
+}
+
+.fluid .fa-linkedin{
+    margin-left: 50px;
+}
+
+.fluid .icon:hover{
+    color: #ffffff;
+    transition: 0.6s;
+    
+}
+
+/*----------------------------------------------------------navbar-----------------------------------------------------------------*/

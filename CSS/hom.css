@@ -242,8 +242,16 @@ section{
 
   }
 
-.card{
+  .des{
+
     background-color: #00202B;
+  }
+  
+
+.card{
+    
+    width:25%;
+    height: 350px;
   
 }
 
