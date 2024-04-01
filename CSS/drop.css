@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    list-style-type: none;
+}
+
+.dropdown a{
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.dropdown a:hover{
+    background-color: blue;
+}
+
+.drop{
+    list-style-type: none;
+    display: none;
+}
+.dropdown li:nth-child(3):hover .drop{
+    display: block;
+}
